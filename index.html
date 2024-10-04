@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site web top model Fashion</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- icons link -->
+    <script
+      src="https://kit.fontawesome.com/c39494275b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header id="to_top">
       <a href="index.html" class="header__logo">fashion.</a>
       <nav>
         <ul class="header__menu">
@@ -99,5 +104,54 @@
       </div>
     </section>
     <!-- img section -->
+
+    <!-- footer -->
+
+    <footer>
+      <div class="col_1">
+        <p>Subscribe to our site</p>
+        <div class="footer__newsletter">
+          <input type="text" placeholder="example@gmail.com" />
+          <button>SUBSCRIBE</button>
+        </div>
+        <p>follow us</p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Wamavis , all rights reserved</p>
+      </div>
+      <div class="col_2">
+        <p class="small_title">type faces</p>
+        <a href="#">nord</a>
+        <a href="#">est</a>
+        <a href="#">sud</a>
+        <a href="#">conditions</a>
+        <a href="#">left</a>
+      </div>
+      <div class="col_3">
+        <p class="small_title">mark</p>
+        <a href="#">gucci</a>
+        <a href="#">fendi</a>
+        <a href="#">lolo</a>
+        <a href="#">divenci</a>
+        <a href="#">cost</a>
+      </div>
+      <div class="col_4">
+        <button class="top_btn" onclick="link()">to top</button>
+        <p>site by @wamavis dev</p>
+      </div>
+    </footer>
+
+    <!-- footer -->
+
+    <script>
+      // to the top function
+      function link() {
+        location.href = "#to_top";
+      }
+    </script>
   </body>
 </html>
