@@ -75,3 +75,86 @@ header {
   background-color: #000;
   color: white;
 }
+/* classes */
+.tittle {
+  text-transform: uppercase;
+  font-size: 3.75rem;
+  letter-spacing: 0.125rem;
+  color: #5e493a;
+}
+p {
+  color: rgb(97, 96, 96);
+  margin: 1.25rem 0;
+  font-size: 0.813rem;
+  line-height: 1.563rem;
+}
+/* home */
+.home {
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 5rem);
+  width: 100%;
+}
+
+.home__left {
+  width: 35%;
+}
+.home__right {
+  width: 60%;
+  height: 40.25rem;
+}
+.home__right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__buttons button {
+  border: 0.063rem solid #000;
+  cursor: pointer;
+  padding: 0.625rem 1.563rem;
+  background-color: transparent;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+.home__buttons button:hover {
+  background-color: #000;
+  color: #eae2d2;
+  transition: 0.5s ease-out;
+}
+.home__about-us {
+  position: absolute;
+  top: 6.25rem;
+  right: 8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 52.5rem;
+  background-color: #eae2d2;
+  transition: 0.3s ease-out;
+  overflow: hidden;
+  width: 0%;
+}
+.home__about-us img {
+  height: 25rem;
+  width: 25rem;
+  object-fit: cover;
+}
+.home__buttons button:last-child {
+  margin-left: 0.938rem;
+}
+.home__buttons button:last-child:focus .home__about-us {
+  width: 52%;
+  border-left: 0.063rem solid #5e493a;
+}
+.home__about-us h1 {
+  margin-bottom: 1.25rem;
+  font-size: 2.188rem;
+  color: #000;
+}
+/* home */
